@@ -1,0 +1,55 @@
+Advanced Command Line: Shell Architecture – Written Task
+Prerequisites
+- Basic familiarity with using a command-line shell like Command Prompt or Git Bash
+- Visual Studio Code installed
+
+Instructions:
+Answer all the questions in a separate .txt file named shell_architecture_answers.txt.
+Be clear and concise. Where appropriate, use examples or real commands.
+
+1. Purpose of the Shell
+Define the purpose of a shell in modern operating systems.
+
+2. Shell in Unix Philosophy
+Explain the role of the shell in the Unix philosophy.
+
+3. Shell vs Terminal vs Kernel
+Differentiate between the shell, terminal, and kernel.
+Describe how each interacts with the others using a real-world metaphor.
+
+4. REPL Cycle
+Explain each step in the Read-Evaluate-Print Loop (REPL) cycle.
+
+5. REPL Process Example
+Give an example of a command and describe what happens at each step of the REPL cycle.
+
+6. Built-ins, Keywords & External Commands
+a) Define built-in commands, shell keywords, and external commands.
+b) Give at least one example of each.
+c) Explain how the shell distinguishes between them during command parsing.
+
+7. Processes and Jobs in the Shell
+a) Define what a process and a job is in the shell.
+b) Describe the parent-child relationship in process management.
+c) Explain how foreground and background jobs are controlled in the shell.
+
+8. I/O Streams, Redirection & Pipelines
+a) Explain the roles of STDIN, STDOUT, and STDERR with examples.
+b) Describe how redirection operators (>, >>, <, 2>, &>) work.
+c) Describe how pipes (|) are used to chain commands.
+
+9. Environment & Shell State
+a) Define environment variables and shell variables.
+b) Explain how export, env, set, and .bashrc affect shell state.
+
+10. Shell Types & Extensibility
+a) Compare the following shells: bash, zsh, fish, and dash.
+b) Explain how shells can be extended using aliases, functions, and plugins (e.g., oh-my-zsh).
+
+11. Observability & Debugging Tools
+Discuss how the following tools are used for monitoring and debugging shell behavior:
+- ps
+- top / htop
+- strace
+- lsof
+- set -x
