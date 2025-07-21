@@ -1,0 +1,38 @@
+
+        NTUSER.DAT
+        NTUSER.DAT{f50dea4b-3714-11f0-9cd4-00155d041a00}.TM.blf
+        NTUSER.DAT{f50dea4b-3714-11f0-9cd4-00155d041a00}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{f50dea4b-3714-11f0-9cd4-00155d041a00}.TMContainer00000000000000000002.regtrans-ms
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        file
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        shell_intro.sh
+        task-1-prac/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+0301210435089@RDS MINGW64 ~ (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'origin'
+
+0301210435089@RDS MINGW64 ~ (master)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+0301210435089@RDS MINGW64 ~ (master)
+$ git add .
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'AppData/Local/History/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/INetCache/Content.IE5/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/INetCache/Low/Content.IE5/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/Temporary Internet Files/': Permission denied
+warning: could not open directory 'AppData/Local/Temporary Internet Files/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permissio
