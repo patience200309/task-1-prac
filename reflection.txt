@@ -1,0 +1,4 @@
+shell reads and executes commands you type
+i learned how to use different types if commands and interfaces
+it was challenging and easier to use it because it was more detailed
+
